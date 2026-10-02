@@ -1,27 +1,27 @@
 class Sluice < Formula
   desc "Air-gapped log ingestion, tamper-evident vaulting and OCSF normalization"
   homepage "https://github.com/dark-14100/sluice"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/dark-14100/sluice/releases/download/v0.1.3/sluice_0.1.3_darwin_arm64.tar.gz"
-      sha256 "f0482aac53c3594e9520e4745db0cf348668fe1b561571c80148c66e49e94768"
+      url "https://github.com/dark-14100/sluice/releases/download/v0.1.4/sluice_0.1.4_darwin_arm64.tar.gz"
+      sha256 "cdddd97a87257f6285bb5c22cd26c67fd670266eda7e1e1e59cc37f34be62bf4"
     end
     on_intel do
-      url "https://github.com/dark-14100/sluice/releases/download/v0.1.3/sluice_0.1.3_darwin_amd64.tar.gz"
-      sha256 "bce8562f5191a00c99cbd3342440d5677eb260e94078783a650425f2b9cbef13"
+      url "https://github.com/dark-14100/sluice/releases/download/v0.1.4/sluice_0.1.4_darwin_amd64.tar.gz"
+      sha256 "6ef6cfd58a32a93944b1ddfaf896fa841420e9c04d6829efe96b041491126b3a"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/dark-14100/sluice/releases/download/v0.1.3/sluice_0.1.3_linux_arm64.tar.gz"
-      sha256 "028cc507d0c2a095219de306984cc57f79ff4d4c10fddd3b233012936d313560"
+      url "https://github.com/dark-14100/sluice/releases/download/v0.1.4/sluice_0.1.4_linux_arm64.tar.gz"
+      sha256 "9e9a238674220e1b6c5773b0475acc960b4c8b9668f73dd0379f2fddf5b5e1d2"
     end
     on_intel do
-      url "https://github.com/dark-14100/sluice/releases/download/v0.1.3/sluice_0.1.3_linux_amd64.tar.gz"
-      sha256 "445aa7432693bcfafea1c088131d805b136df49526efc257e06bf7dcf06eb0c5"
+      url "https://github.com/dark-14100/sluice/releases/download/v0.1.4/sluice_0.1.4_linux_amd64.tar.gz"
+      sha256 "7846644b272959e7e5f1f12d5fc1360a616226a3839e28604ccb2c778728c320"
     end
   end
 
